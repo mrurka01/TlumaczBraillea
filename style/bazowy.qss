@@ -1,0 +1,76 @@
+QWidget {
+}
+
+/* Przyciski */
+QPushButton {
+    border-radius: 6px;
+    padding: 8px 16px;
+    min-height: 30px;
+    font-weight: 500;
+}
+
+/* Pola tekstowe */
+QTextEdit, QLineEdit {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid;
+}
+
+/* ComboBox */
+QComboBox {
+    border-radius: 5px;
+    padding: 6px;
+    min-height: 25px;
+    border: 1px solid;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+/* SpinBox */
+QSpinBox {
+    border-radius: 5px;
+    padding: 6px;
+    min-height: 25px;
+    border: 1px solid;
+}
+
+/* Menu */
+QMenuBar {
+    padding: 4px;
+}
+
+QMenuBar::item {
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+QMenu {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 6px 24px;
+    border-radius: 4px;
+}
+
+/* Dialogi */
+QDialog {
+    border-radius: 8px;
+}
+
+/* ListWidget */
+QListWidget {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+QListWidget::item {
+    padding: 8px;
+    border-radius: 4px;
+}
