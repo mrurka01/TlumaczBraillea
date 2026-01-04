@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Ciemny motyw */
 
 QWidget {
@@ -57,4 +58,65 @@ QMenu::item:selected {
     background-color: #0078d7; /* niebieskie podświetlenie */
     color: white;
     border-radius: 4px;
+=======
+/* Ciemny motyw */
+
+QWidget {
+    background-color: #2f3640;
+    color: #f5f6fa;
+}
+
+/* Przyciski */
+QPushButton {
+    background-color: #353b48;
+    color: #f5f6fa;
+    border-radius: 6px;
+}
+QPushButton:hover {
+    background-color: #40739e;
+}
+QPushButton:pressed {
+    background-color: #192a56;
+}
+
+/* Pola tekstowe */
+QTextEdit, QLineEdit {
+    background-color: #404258;
+    border: 1px solid #718093;
+    border-radius: 5px;
+    padding: 6px;
+    color: #f5f6fa;
+}
+
+/* Menu */
+QMenuBar {
+    background-color: #353b48;
+}
+QMenuBar::item:selected {
+    background-color: #40739e;
+    color: white;
+}
+
+/* Okna dialogowe */
+QMessageBox {
+    background-color: #2f3640;
+}
+
+/* Styl podświetlenia opcji w menu */
+QMenu {
+    background-color: #2b2b2b; /* kolor tła menu */
+    color: #f0f0f0;           /* kolor tekstu */
+    border: 1px solid #3a3a3a;
+}
+
+QMenu::item {
+    padding: 6px 24px;
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #0078d7; /* niebieskie podświetlenie */
+    color: white;
+    border-radius: 4px;
+>>>>>>> 6ecdc4fe137fd6bdbf48b60475110ab816c0aca2
 }

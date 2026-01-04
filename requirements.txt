@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PyQt6==6.9.1
 opencv-python==4.10.0.84
 scikit-learn==1.5.2
@@ -9,4 +10,17 @@ pypandoc==1.13
 reportlab==4.2.5
 PyPDF2==3.0.1
 numpy==1.26.4
+=======
+PyQt6==6.9.1
+opencv-python==4.10.0.84
+scikit-learn==1.5.2
+PyMuPDF==1.24.10
+python-docx==1.1.2
+odfpy==1.4.1
+striprtf==0.0.26
+pypandoc==1.13
+reportlab==4.2.5
+PyPDF2==3.0.1
+numpy==1.26.4
+>>>>>>> 6ecdc4fe137fd6bdbf48b60475110ab816c0aca2
 pyinstaller==6.11.0

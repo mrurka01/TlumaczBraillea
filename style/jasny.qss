@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Jasny motyw */
 
 QWidget {
@@ -54,4 +55,62 @@ QMenu::item {
 QMenu::item:selected {
     background-color: #cce4ff;
     color: black;
+=======
+/* Jasny motyw */
+
+QWidget {
+    background-color: #f5f6fa;
+    color: #2f3640;
+}
+
+/* Przyciski */
+QPushButton {
+    background-color: #40739e;
+    color: white;
+    border-radius: 6px;
+}
+QPushButton:hover {
+    background-color: #487eb0;
+}
+QPushButton:pressed {
+    background-color: #273c75;
+}
+
+/* Pola tekstowe */
+QTextEdit, QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+/* Menu */
+QMenuBar {
+    background-color: #dcdde1;
+}
+QMenuBar::item:selected {
+    background-color: #718093;
+    color: white;
+}
+
+/* Okna dialogowe */
+QMessageBox {
+    background-color: #f5f6fa;
+}
+
+QMenu {
+    background-color: #f8f8f8;
+    color: #202020;
+    border: 1px solid #c0c0c0;
+}
+
+QMenu::item {
+    padding: 6px 24px;
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #cce4ff;
+    color: black;
+>>>>>>> 6ecdc4fe137fd6bdbf48b60475110ab816c0aca2
 }
